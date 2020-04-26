@@ -21,7 +21,7 @@ public class TestUtil extends TestBase {
 	public static long PAGE_LOAD_TIMEOUT = 20;
 	public static long IMPLICIT_WAIT = 30;
 
-	public static String TEST_DATA_PATH = "";
+	public static String TEST_DATA_PATH = "/Users/mohammadjebril/eclipse-workspace/AmgenFirstStep/src/main/java/com/Amgen/qa/testdata/FirstStep.xlsx";
 
 	static Workbook book;
 	static Sheet sheet;

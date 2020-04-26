@@ -2,72 +2,72 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Amgen application Test Automation Test Suite" duration-ms="39978" started-at="2020-04-25T06:19:51 EDT" finished-at="2020-04-25T06:20:31 EDT">
+  <suite name="Amgen application Test Automation Test Suite" duration-ms="37635" started-at="2020-04-25T16:03:18 EDT" finished-at="2020-04-25T16:03:56 EDT">
     <groups>
     </groups>
-    <test name="Amgen Application Test Cases" duration-ms="39978" started-at="2020-04-25T06:19:51 EDT" finished-at="2020-04-25T06:20:31 EDT">
+    <test name="Amgen Application Test Cases" duration-ms="37635" started-at="2020-04-25T16:03:18 EDT" finished-at="2020-04-25T16:03:56 EDT">
       <class name="com.Amgen.qa.testcases.StandAlonePageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.Amgen.qa.testcases.StandAlonePageTest@32cf48b7]" name="setup" is-config="true" duration-ms="3018" started-at="2020-04-25T06:19:52 EDT" finished-at="2020-04-25T06:19:55 EDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Amgen.qa.testcases.StandAlonePageTest@32cf48b7]" name="setup" is-config="true" duration-ms="3662" started-at="2020-04-25T16:03:18 EDT" finished-at="2020-04-25T16:03:22 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyStandalonePageTitle()[pri:0, instance:com.Amgen.qa.testcases.StandAlonePageTest@32cf48b7]" name="verifyStandalonePageTitle" duration-ms="15" started-at="2020-04-25T06:19:55 EDT" finished-at="2020-04-25T06:19:55 EDT">
+        <test-method status="PASS" signature="verifyStandalonePageTitle()[pri:0, instance:com.Amgen.qa.testcases.StandAlonePageTest@32cf48b7]" name="verifyStandalonePageTitle" duration-ms="17" started-at="2020-04-25T16:03:22 EDT" finished-at="2020-04-25T16:03:22 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyStandalonePageTitle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Amgen.qa.testcases.StandAlonePageTest@32cf48b7]" name="tearDown" is-config="true" duration-ms="578" started-at="2020-04-25T06:19:55 EDT" finished-at="2020-04-25T06:19:55 EDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Amgen.qa.testcases.StandAlonePageTest@32cf48b7]" name="tearDown" is-config="true" duration-ms="576" started-at="2020-04-25T16:03:22 EDT" finished-at="2020-04-25T16:03:22 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.Amgen.qa.testcases.StandAlonePageTest@32cf48b7]" name="setup" is-config="true" duration-ms="2937" started-at="2020-04-25T06:19:55 EDT" finished-at="2020-04-25T06:19:58 EDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Amgen.qa.testcases.StandAlonePageTest@32cf48b7]" name="setup" is-config="true" duration-ms="3171" started-at="2020-04-25T16:03:22 EDT" finished-at="2020-04-25T16:03:26 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="clickOnGetStartedLinkTest()[pri:1, instance:com.Amgen.qa.testcases.StandAlonePageTest@32cf48b7]" name="clickOnGetStartedLinkTest" duration-ms="3430" started-at="2020-04-25T06:19:58 EDT" finished-at="2020-04-25T06:20:02 EDT">
+        <test-method status="PASS" signature="clickOnGetStartedLinkTest()[pri:1, instance:com.Amgen.qa.testcases.StandAlonePageTest@32cf48b7]" name="clickOnGetStartedLinkTest" duration-ms="3456" started-at="2020-04-25T16:03:26 EDT" finished-at="2020-04-25T16:03:29 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnGetStartedLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Amgen.qa.testcases.StandAlonePageTest@32cf48b7]" name="tearDown" is-config="true" duration-ms="573" started-at="2020-04-25T06:20:02 EDT" finished-at="2020-04-25T06:20:02 EDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Amgen.qa.testcases.StandAlonePageTest@32cf48b7]" name="tearDown" is-config="true" duration-ms="573" started-at="2020-04-25T16:03:29 EDT" finished-at="2020-04-25T16:03:30 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.Amgen.qa.testcases.StandAlonePageTest -->
       <class name="com.Amgen.qa.testcases.CardInformationPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.Amgen.qa.testcases.CardInformationPageTest@5cdd8682]" name="setup" is-config="true" duration-ms="8437" started-at="2020-04-25T06:20:09 EDT" finished-at="2020-04-25T06:20:17 EDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Amgen.qa.testcases.CardInformationPageTest@5cdd8682]" name="setup" is-config="true" duration-ms="6228" started-at="2020-04-25T16:03:36 EDT" finished-at="2020-04-25T16:03:43 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="ClickOnPg2RadioBtnTest()[pri:1, instance:com.Amgen.qa.testcases.CardInformationPageTest@5cdd8682]" name="ClickOnPg2RadioBtnTest" duration-ms="71" started-at="2020-04-25T06:20:17 EDT" finished-at="2020-04-25T06:20:18 EDT">
+        <test-method status="PASS" signature="ClickOnPg2RadioBtnTest()[pri:1, instance:com.Amgen.qa.testcases.CardInformationPageTest@5cdd8682]" name="ClickOnPg2RadioBtnTest" duration-ms="87" started-at="2020-04-25T16:03:43 EDT" finished-at="2020-04-25T16:03:43 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickOnPg2RadioBtnTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Amgen.qa.testcases.CardInformationPageTest@5cdd8682]" name="tearDown" is-config="true" duration-ms="575" started-at="2020-04-25T06:20:18 EDT" finished-at="2020-04-25T06:20:18 EDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Amgen.qa.testcases.CardInformationPageTest@5cdd8682]" name="tearDown" is-config="true" duration-ms="577" started-at="2020-04-25T16:03:43 EDT" finished-at="2020-04-25T16:03:43 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.Amgen.qa.testcases.CardInformationPageTest@5cdd8682]" name="setup" is-config="true" duration-ms="7186" started-at="2020-04-25T06:20:18 EDT" finished-at="2020-04-25T06:20:25 EDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Amgen.qa.testcases.CardInformationPageTest@5cdd8682]" name="setup" is-config="true" duration-ms="6362" started-at="2020-04-25T16:03:43 EDT" finished-at="2020-04-25T16:03:50 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="clickContinuePge2BtnTest()[pri:2, instance:com.Amgen.qa.testcases.CardInformationPageTest@5cdd8682]" name="clickContinuePge2BtnTest" duration-ms="5577" started-at="2020-04-25T06:20:25 EDT" finished-at="2020-04-25T06:20:31 EDT">
+        <test-method status="PASS" signature="clickContinuePge2BtnTest()[pri:2, instance:com.Amgen.qa.testcases.CardInformationPageTest@5cdd8682]" name="clickContinuePge2BtnTest" duration-ms="5467" started-at="2020-04-25T16:03:50 EDT" finished-at="2020-04-25T16:03:55 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickContinuePge2BtnTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Amgen.qa.testcases.CardInformationPageTest@5cdd8682]" name="tearDown" is-config="true" duration-ms="577" started-at="2020-04-25T06:20:31 EDT" finished-at="2020-04-25T06:20:31 EDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Amgen.qa.testcases.CardInformationPageTest@5cdd8682]" name="tearDown" is-config="true" duration-ms="579" started-at="2020-04-25T16:03:55 EDT" finished-at="2020-04-25T16:03:56 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.Amgen.qa.testcases.CardInformationPageTest -->
       <class name="com.Amgen.qa.testcases.EligibilityPageTerst">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.Amgen.qa.testcases.EligibilityPageTerst@679b62af]" name="setup" is-config="true" duration-ms="5907" started-at="2020-04-25T06:20:02 EDT" finished-at="2020-04-25T06:20:08 EDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Amgen.qa.testcases.EligibilityPageTerst@679b62af]" name="setup" is-config="true" duration-ms="5802" started-at="2020-04-25T16:03:30 EDT" finished-at="2020-04-25T16:03:35 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="clickOnRadioBtnQ1Test()[pri:0, instance:com.Amgen.qa.testcases.EligibilityPageTerst@679b62af]" name="clickOnRadioBtnQ1Test" duration-ms="483" started-at="2020-04-25T06:20:08 EDT" finished-at="2020-04-25T06:20:08 EDT">
+        <test-method status="PASS" signature="clickOnRadioBtnQ1Test()[pri:0, instance:com.Amgen.qa.testcases.EligibilityPageTerst@679b62af]" name="clickOnRadioBtnQ1Test" duration-ms="449" started-at="2020-04-25T16:03:35 EDT" finished-at="2020-04-25T16:03:36 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnRadioBtnQ1Test -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Amgen.qa.testcases.EligibilityPageTerst@679b62af]" name="tearDown" is-config="true" duration-ms="575" started-at="2020-04-25T06:20:08 EDT" finished-at="2020-04-25T06:20:09 EDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Amgen.qa.testcases.EligibilityPageTerst@679b62af]" name="tearDown" is-config="true" duration-ms="576" started-at="2020-04-25T16:03:36 EDT" finished-at="2020-04-25T16:03:36 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
