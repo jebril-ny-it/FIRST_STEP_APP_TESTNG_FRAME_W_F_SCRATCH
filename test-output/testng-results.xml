@@ -1,73 +1,777 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
   <reporter-output>
   </reporter-output>
-  <suite name="Amgen application Test Automation Test Suite" duration-ms="37635" started-at="2020-04-25T16:03:18 EDT" finished-at="2020-04-25T16:03:56 EDT">
+  <suite name="Amgen application Test Automation Test Suite" duration-ms="171588" started-at="2020-05-01T00:24:10 EDT" finished-at="2020-05-01T00:27:02 EDT">
     <groups>
     </groups>
-    <test name="Amgen Application Test Cases" duration-ms="37635" started-at="2020-04-25T16:03:18 EDT" finished-at="2020-04-25T16:03:56 EDT">
-      <class name="com.Amgen.qa.testcases.StandAlonePageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.Amgen.qa.testcases.StandAlonePageTest@32cf48b7]" name="setup" is-config="true" duration-ms="3662" started-at="2020-04-25T16:03:18 EDT" finished-at="2020-04-25T16:03:22 EDT">
+    <test name="Amgen Application Test Cases" duration-ms="171588" started-at="2020-05-01T00:24:10 EDT" finished-at="2020-05-01T00:27:02 EDT">
+      <class name="com.Amgen.qa.testcases.PatientInformationPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Amgen.qa.testcases.PatientInformationPageTest@11c20519]" name="setup" is-config="true" duration-ms="6653" started-at="2020-05-01T00:24:43 EDT" finished-at="2020-05-01T00:24:49 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyStandalonePageTitle()[pri:0, instance:com.Amgen.qa.testcases.StandAlonePageTest@32cf48b7]" name="verifyStandalonePageTitle" duration-ms="17" started-at="2020-04-25T16:03:22 EDT" finished-at="2020-04-25T16:03:22 EDT">
+        <test-method status="PASS" signature="physicianInformationPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Amgen.qa.testcases.PatientInformationPageTest@11c20519]" name="physicianInformationPageTest" duration-ms="26658" started-at="2020-05-01T00:24:49 EDT" data-provider="getPatientTestData" finished-at="2020-05-01T00:25:16 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Azza]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Stewart]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8.7098976E7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[626 9th ave ]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[brooklyn]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[11212.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9.293432525E9]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[tomstewart2020@gmail.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Dr Eyes]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Dr A]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Eyes]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[567 5th ave]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Bronx]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[7.186543413E9]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[11213.0]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyStandalonePageTitle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Amgen.qa.testcases.StandAlonePageTest@32cf48b7]" name="tearDown" is-config="true" duration-ms="576" started-at="2020-04-25T16:03:22 EDT" finished-at="2020-04-25T16:03:22 EDT">
+        </test-method> <!-- physicianInformationPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Amgen.qa.testcases.PatientInformationPageTest@11c20519]" name="tearDown" is-config="true" duration-ms="581" started-at="2020-05-01T00:25:16 EDT" finished-at="2020-05-01T00:25:17 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.Amgen.qa.testcases.StandAlonePageTest@32cf48b7]" name="setup" is-config="true" duration-ms="3171" started-at="2020-04-25T16:03:22 EDT" finished-at="2020-04-25T16:03:26 EDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Amgen.qa.testcases.PatientInformationPageTest@11c20519]" name="setup" is-config="true" duration-ms="6738" started-at="2020-05-01T00:25:17 EDT" finished-at="2020-05-01T00:25:23 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="clickOnGetStartedLinkTest()[pri:1, instance:com.Amgen.qa.testcases.StandAlonePageTest@32cf48b7]" name="clickOnGetStartedLinkTest" duration-ms="3456" started-at="2020-04-25T16:03:26 EDT" finished-at="2020-04-25T16:03:29 EDT">
+        <test-method status="PASS" signature="physicianInformationPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Amgen.qa.testcases.PatientInformationPageTest@11c20519]" name="physicianInformationPageTest" duration-ms="5499" started-at="2020-05-01T00:25:23 EDT" data-provider="getPatientTestData" finished-at="2020-05-01T00:25:29 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jack]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[White]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8.9767654E7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[923 8thave]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[bronx]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[23545.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9.098786543E9]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[jack@gmail.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Dr nose]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Dr B]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Nose]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[626 ninth ave]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Queens]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[7.187658765E9]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[87876.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- physicianInformationPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Amgen.qa.testcases.PatientInformationPageTest@11c20519]" name="tearDown" is-config="true" duration-ms="581" started-at="2020-05-01T00:25:29 EDT" finished-at="2020-05-01T00:25:29 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Amgen.qa.testcases.PatientInformationPageTest@11c20519]" name="setup" is-config="true" duration-ms="8407" started-at="2020-05-01T00:25:29 EDT" finished-at="2020-05-01T00:25:38 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="physicianInformationPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Amgen.qa.testcases.PatientInformationPageTest@11c20519]" name="physicianInformationPageTest" duration-ms="5347" started-at="2020-05-01T00:25:38 EDT" data-provider="getPatientTestData" finished-at="2020-05-01T00:25:43 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[karina]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[arca]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9.8905432E7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[98 cropsy ave]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[manhattan]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[12987.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2.018761514E9]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Jackson@gmail.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Dr legs]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Dr C]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Legs]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[676 Bay av]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Brooklyn]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[7.187675643E9]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[11980.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- physicianInformationPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Amgen.qa.testcases.PatientInformationPageTest@11c20519]" name="tearDown" is-config="true" duration-ms="581" started-at="2020-05-01T00:25:43 EDT" finished-at="2020-05-01T00:25:44 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Amgen.qa.testcases.PatientInformationPageTest@11c20519]" name="setup" is-config="true" duration-ms="6875" started-at="2020-05-01T00:25:44 EDT" finished-at="2020-05-01T00:25:51 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="physicianInformationPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Amgen.qa.testcases.PatientInformationPageTest@11c20519]" name="physicianInformationPageTest" duration-ms="5359" started-at="2020-05-01T00:25:51 EDT" data-provider="getPatientTestData" finished-at="2020-05-01T00:25:56 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ahmad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mohammad]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9.8995432E7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[34 new jersey ave]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[jersey]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[32161.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2.015651212E9]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[smithwon@yahoo.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Dr  Arms]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Dr D]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Arms]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[89 shore pkwy]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Manhatten]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[7.185679009E9]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[11718.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- physicianInformationPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Amgen.qa.testcases.PatientInformationPageTest@11c20519]" name="tearDown" is-config="true" duration-ms="579" started-at="2020-05-01T00:25:56 EDT" finished-at="2020-05-01T00:25:57 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Amgen.qa.testcases.PatientInformationPageTest -->
+      <class name="com.Amgen.qa.testcases.StandAlonePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Amgen.qa.testcases.StandAlonePageTest@69a10787]" name="setup" is-config="true" duration-ms="3139" started-at="2020-05-01T00:24:10 EDT" finished-at="2020-05-01T00:24:14 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyStandalonePageTitle()[pri:0, instance:com.Amgen.qa.testcases.StandAlonePageTest@69a10787]" name="verifyStandalonePageTitle" duration-ms="14" started-at="2020-05-01T00:24:14 EDT" finished-at="2020-05-01T00:24:14 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStandalonePageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Amgen.qa.testcases.StandAlonePageTest@69a10787]" name="tearDown" is-config="true" duration-ms="574" started-at="2020-05-01T00:24:14 EDT" finished-at="2020-05-01T00:24:14 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Amgen.qa.testcases.StandAlonePageTest@69a10787]" name="setup" is-config="true" duration-ms="2491" started-at="2020-05-01T00:24:14 EDT" finished-at="2020-05-01T00:24:17 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="clickOnGetStartedLinkTest()[pri:1, instance:com.Amgen.qa.testcases.StandAlonePageTest@69a10787]" name="clickOnGetStartedLinkTest" duration-ms="3503" started-at="2020-05-01T00:24:17 EDT" finished-at="2020-05-01T00:24:20 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnGetStartedLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Amgen.qa.testcases.StandAlonePageTest@32cf48b7]" name="tearDown" is-config="true" duration-ms="573" started-at="2020-04-25T16:03:29 EDT" finished-at="2020-04-25T16:03:30 EDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Amgen.qa.testcases.StandAlonePageTest@69a10787]" name="tearDown" is-config="true" duration-ms="575" started-at="2020-05-01T00:24:20 EDT" finished-at="2020-05-01T00:24:21 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.Amgen.qa.testcases.StandAlonePageTest -->
       <class name="com.Amgen.qa.testcases.CardInformationPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.Amgen.qa.testcases.CardInformationPageTest@5cdd8682]" name="setup" is-config="true" duration-ms="6228" started-at="2020-04-25T16:03:36 EDT" finished-at="2020-04-25T16:03:43 EDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Amgen.qa.testcases.CardInformationPageTest@2bbaf4f0]" name="setup" is-config="true" duration-ms="6691" started-at="2020-05-01T00:24:30 EDT" finished-at="2020-05-01T00:24:36 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="ClickOnPg2RadioBtnTest()[pri:1, instance:com.Amgen.qa.testcases.CardInformationPageTest@5cdd8682]" name="ClickOnPg2RadioBtnTest" duration-ms="87" started-at="2020-04-25T16:03:43 EDT" finished-at="2020-04-25T16:03:43 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ClickOnPg2RadioBtnTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Amgen.qa.testcases.CardInformationPageTest@5cdd8682]" name="tearDown" is-config="true" duration-ms="577" started-at="2020-04-25T16:03:43 EDT" finished-at="2020-04-25T16:03:43 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.Amgen.qa.testcases.CardInformationPageTest@5cdd8682]" name="setup" is-config="true" duration-ms="6362" started-at="2020-04-25T16:03:43 EDT" finished-at="2020-04-25T16:03:50 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="clickContinuePge2BtnTest()[pri:2, instance:com.Amgen.qa.testcases.CardInformationPageTest@5cdd8682]" name="clickContinuePge2BtnTest" duration-ms="5467" started-at="2020-04-25T16:03:50 EDT" finished-at="2020-04-25T16:03:55 EDT">
+        <test-method status="PASS" signature="clickContinuePge2BtnTest()[pri:0, instance:com.Amgen.qa.testcases.CardInformationPageTest@2bbaf4f0]" name="clickContinuePge2BtnTest" duration-ms="5520" started-at="2020-05-01T00:24:36 EDT" finished-at="2020-05-01T00:24:42 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickContinuePge2BtnTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Amgen.qa.testcases.CardInformationPageTest@5cdd8682]" name="tearDown" is-config="true" duration-ms="579" started-at="2020-04-25T16:03:55 EDT" finished-at="2020-04-25T16:03:56 EDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Amgen.qa.testcases.CardInformationPageTest@2bbaf4f0]" name="tearDown" is-config="true" duration-ms="578" started-at="2020-05-01T00:24:42 EDT" finished-at="2020-05-01T00:24:42 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.Amgen.qa.testcases.CardInformationPageTest -->
-      <class name="com.Amgen.qa.testcases.EligibilityPageTerst">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.Amgen.qa.testcases.EligibilityPageTerst@679b62af]" name="setup" is-config="true" duration-ms="5802" started-at="2020-04-25T16:03:30 EDT" finished-at="2020-04-25T16:03:35 EDT">
+      <class name="com.Amgen.qa.testcases.PhysicianInformationPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Amgen.qa.testcases.PhysicianInformationPageTest@70beb599]" name="setup" is-config="true" duration-ms="7871" started-at="2020-05-01T00:25:57 EDT" finished-at="2020-05-01T00:26:05 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="clickOnRadioBtnQ1Test()[pri:0, instance:com.Amgen.qa.testcases.EligibilityPageTerst@679b62af]" name="clickOnRadioBtnQ1Test" duration-ms="449" started-at="2020-04-25T16:03:35 EDT" finished-at="2020-04-25T16:03:36 EDT">
+        <test-method status="PASS" signature="physicianInformationPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Amgen.qa.testcases.PhysicianInformationPageTest@70beb599]" name="physicianInformationPageTest" duration-ms="6766" started-at="2020-05-01T00:26:05 EDT" data-provider="getPhysicianTestData" finished-at="2020-05-01T00:26:11 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Azza]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Stewart]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8.7098976E7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[626 9th ave ]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[brooklyn]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[11212.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9.293432525E9]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[tomstewart2020@gmail.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Dr Eyes]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Dr A]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Eyes]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[567 5th ave]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Bronx]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[7.186543413E9]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[11213.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- physicianInformationPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Amgen.qa.testcases.PhysicianInformationPageTest@70beb599]" name="tearDown" is-config="true" duration-ms="581" started-at="2020-05-01T00:26:11 EDT" finished-at="2020-05-01T00:26:12 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Amgen.qa.testcases.PhysicianInformationPageTest@70beb599]" name="setup" is-config="true" duration-ms="8361" started-at="2020-05-01T00:26:12 EDT" finished-at="2020-05-01T00:26:20 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="physicianInformationPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Amgen.qa.testcases.PhysicianInformationPageTest@70beb599]" name="physicianInformationPageTest" duration-ms="6775" started-at="2020-05-01T00:26:20 EDT" data-provider="getPhysicianTestData" finished-at="2020-05-01T00:26:27 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jack]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[White]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8.9767654E7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[923 8thave]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[bronx]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[23545.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9.098786543E9]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[jack@gmail.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Dr nose]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Dr B]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Nose]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[626 ninth ave]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Queens]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[7.187658765E9]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[87876.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- physicianInformationPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Amgen.qa.testcases.PhysicianInformationPageTest@70beb599]" name="tearDown" is-config="true" duration-ms="580" started-at="2020-05-01T00:26:27 EDT" finished-at="2020-05-01T00:26:28 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Amgen.qa.testcases.PhysicianInformationPageTest@70beb599]" name="setup" is-config="true" duration-ms="8755" started-at="2020-05-01T00:26:28 EDT" finished-at="2020-05-01T00:26:36 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="physicianInformationPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Amgen.qa.testcases.PhysicianInformationPageTest@70beb599]" name="physicianInformationPageTest" duration-ms="6741" started-at="2020-05-01T00:26:36 EDT" data-provider="getPhysicianTestData" finished-at="2020-05-01T00:26:43 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[karina]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[arca]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9.8905432E7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[98 cropsy ave]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[manhattan]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[12987.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2.018761514E9]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Jackson@gmail.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Dr legs]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Dr C]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Legs]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[676 Bay av]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Brooklyn]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[7.187675643E9]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[11980.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- physicianInformationPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Amgen.qa.testcases.PhysicianInformationPageTest@70beb599]" name="tearDown" is-config="true" duration-ms="579" started-at="2020-05-01T00:26:43 EDT" finished-at="2020-05-01T00:26:44 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Amgen.qa.testcases.PhysicianInformationPageTest@70beb599]" name="setup" is-config="true" duration-ms="11065" started-at="2020-05-01T00:26:44 EDT" finished-at="2020-05-01T00:26:55 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="physicianInformationPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.Amgen.qa.testcases.PhysicianInformationPageTest@70beb599]" name="physicianInformationPageTest" duration-ms="6727" started-at="2020-05-01T00:26:55 EDT" data-provider="getPhysicianTestData" finished-at="2020-05-01T00:27:01 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ahmad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mohammad]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9.8995432E7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[34 new jersey ave]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[jersey]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[32161.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2.015651212E9]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[smithwon@yahoo.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Dr  Arms]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Dr D]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Arms]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[89 shore pkwy]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Manhatten]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[7.185679009E9]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[11718.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- physicianInformationPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Amgen.qa.testcases.PhysicianInformationPageTest@70beb599]" name="tearDown" is-config="true" duration-ms="579" started-at="2020-05-01T00:27:01 EDT" finished-at="2020-05-01T00:27:02 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Amgen.qa.testcases.PhysicianInformationPageTest -->
+      <class name="com.Amgen.qa.testcases.EligibilityPageTerst">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Amgen.qa.testcases.EligibilityPageTerst@2d127a61]" name="setup" is-config="true" duration-ms="7715" started-at="2020-05-01T00:24:21 EDT" finished-at="2020-05-01T00:24:28 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="clickOnRadioBtnQ1Test()[pri:0, instance:com.Amgen.qa.testcases.EligibilityPageTerst@2d127a61]" name="clickOnRadioBtnQ1Test" duration-ms="448" started-at="2020-05-01T00:24:28 EDT" finished-at="2020-05-01T00:24:29 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnRadioBtnQ1Test -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Amgen.qa.testcases.EligibilityPageTerst@679b62af]" name="tearDown" is-config="true" duration-ms="576" started-at="2020-04-25T16:03:36 EDT" finished-at="2020-04-25T16:03:36 EDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Amgen.qa.testcases.EligibilityPageTerst@2d127a61]" name="tearDown" is-config="true" duration-ms="579" started-at="2020-05-01T00:24:29 EDT" finished-at="2020-05-01T00:24:30 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

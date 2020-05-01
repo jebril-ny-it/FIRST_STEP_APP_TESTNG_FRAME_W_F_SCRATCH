@@ -21,11 +21,16 @@ public class TestUtil extends TestBase {
 	public static long PAGE_LOAD_TIMEOUT = 20;
 	public static long IMPLICIT_WAIT = 30;
 
-	public static String TEST_DATA_PATH = "/Users/mohammadjebril/eclipse-workspace/AmgenFirstStep/src/main/java/com/Amgen/qa/testdata/FirstStep.xlsx";
-
+	public static String TEST_DATA_PATH = "/Users/mohammadjebril/eclipse-workspace/AmgenFirstStep/src/main/java/com/Amgen/qa/testdata/AmgenBackUp.xlsx";
+	
+	public static String TEST_DATA_PATH_PAGE2 = "/Users/mohammadjebril/eclipse-workspace/AmgenFirstStep/src/main/java/com/Amgen/qa/testdata/FirstStep.xlsx";
+	
 	static Workbook book;
 	static Sheet sheet;
 
+	static Workbook book2;
+	static Sheet sheet2
+	;
 	public static Object[][] getTestData(String sheetName) {
 
 		FileInputStream file = null;
@@ -58,4 +63,29 @@ public class TestUtil extends TestBase {
 
 	}
 
+
+	public static Object[][] getTestDataPage2(String sheetNamepage2) {
+
+		FileInputStream file = null;
+		try {
+			file = new FileInputStream(TEST_DATA_PATH_PAGE2);
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+		try {
+			book2 = WorkbookFactory.create(file);
+		} catch (InvalidFormatException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		sheet2 = book2.getSheet(sheetNamepage2);
+		Object[][] datapg2 = new Object[sheet2.getLastRowNum()][sheet2.getRow(0).getLastCellNum()];
+		for (int i = 0; i < sheet2.getLastRowNum(); i++) {
+			for (int k = 0; k < sheet2.getRow(0).getLastCellNum(); k++) {
+				datapg2[i][k] = sheet2.getRow(i + 1).getCell(k).toString();
+			}
+		}
+		return datapg2;
+	}
 }

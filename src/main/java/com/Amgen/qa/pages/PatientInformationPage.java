@@ -1,7 +1,6 @@
 //@Author Jebril
 package com.Amgen.qa.pages;
 
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -13,17 +12,14 @@ import com.Amgen.qa.base.TestBase;
 public class PatientInformationPage extends TestBase {
 
 	@FindBy(xpath = "//input[@name='first_name']")
-	WebElement firstName;
+	public WebElement firstName;
 
 	@FindBy(xpath = "//input[@name='last_name']")
 	WebElement lasttName;
 
 	@FindBy(xpath = "//label[contains(text(),'Male')]")
 	WebElement gender;
-	
-	@FindBy(xpath="//select[@name='dob_month']")
-	WebElement monthDropDown;
-	
+
 	@FindBy(xpath = "//input[@id='password_SocialSecurityNumber']")
 	WebElement socialNumber;
 
@@ -41,32 +37,71 @@ public class PatientInformationPage extends TestBase {
 
 	@FindBy(xpath = "//input[@name='email']")
 	WebElement emailAddress;
-	
+
 	@FindBy(xpath = "//span[@class='checkmark']")
 	WebElement concentCheckBox;
-	
-	@FindBy(xpath="//input[@id='subnewtopic']")
-	WebElement continueTabPIpage;
-	
-	public void birthdayfield() {
-	
-		Select sel = new Select(driver.findElement(By.xpath("//select[@name='dob_month']")));
-		sel.deselectByVisibleText("December");
 
-		Select sel2 = new Select(driver.findElement(By.xpath("//select[@name='dob_day']")));
-		sel.deselectByVisibleText("26");
-	
-		Select sel3 = new Select(driver.findElement(By.xpath("//select[@name='dob_year']")));
-		sel.deselectByVisibleText("26");
-	
-	}
-	
+	@FindBy(xpath = "//input[@id='subnewtopic']")
+	WebElement continueTabPIpage;
+
+	@FindBy(xpath = "//div[@class='custom-select']")
+	WebElement mnthSelectBox;
+
+	@FindBy(xpath = "//div[contains(text(),'New York')]")
+	WebElement mnthDropDwn;
+
+	@FindBy(xpath = "//input[@id='password_SocialSecurityNumber']")
+	WebElement clickOnSSNBoxToActivate;
 
 	public PatientInformationPage() {
 		PageFactory.initElements(driver, this);
 	}
 
-	public void fillOutPatientInformation() {
-		
+	public void clickbirthdayfield() {
+		Select sel = new Select(driver.findElement(By.xpath("//select[@name='dob_month']")));
+		sel.selectByValue("12");
+
+		Select sel2 = new Select(driver.findElement(By.xpath("//select[@name='dob_day']")));
+		sel2.selectByValue("26");
+
+		Select sel3 = new Select(driver.findElement(By.xpath("//select[@name='dob_year']")));
+		sel3.selectByValue("1986");
+
 	}
+
+	public void clickstateDropDown() {
+		mnthSelectBox.click();
+		mnthDropDwn.click();
+
+	}
+
+	public void clickongenderBtn() {
+		gender.click();
+	}
+
+	public void clickOnConcentBtn() {
+		concentCheckBox.click();
+	}
+
+	public  void fillOutPatientInformation(String fName, String lName, String SSNNUM, String Address, String city,
+			String zipCde, String phoneNum, String email) {
+		firstName.sendKeys(fName);
+		lasttName.sendKeys(lName);
+		socialNumber.sendKeys(SSNNUM);
+		StreetAddress.sendKeys(Address);
+		cityname.sendKeys(city);
+		zipCode.sendKeys(zipCde);
+		phoneNumber.sendKeys(phoneNum);
+		emailAddress.sendKeys(email);
+	}
+
+	public void clickOnSSNBoxToActivate() {
+		clickOnSSNBoxToActivate.click();
+	}
+
+	public PhysicianInformationPage clickOnContinuePIpage() {
+		continueTabPIpage.click();
+		return new PhysicianInformationPage();
+	}
+
 }

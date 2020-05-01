@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Amgen.qa.testcases.EligibilityPageTerst">
+      <class name="com.Amgen.qa.testcases.PatientInformationPageTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="clickOnRadioBtnQ1Test"/>
           <include name="setup"/>
+          <include name="physicianInformationPageTest"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.Amgen.qa.testcases.EligibilityPageTerst -->
+      </class> <!-- com.Amgen.qa.testcases.PatientInformationPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

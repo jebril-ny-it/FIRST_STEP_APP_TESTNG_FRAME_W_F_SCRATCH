@@ -30,27 +30,13 @@ public class EligibilityPage extends TestBase {
 		PageFactory.initElements(driver, this);
 	}
 
-	public void clickOnradioBtn1() {
+
+	public CardInformationPage filloutEligebilityQuestions() {
 		radioyesBtnQ1.click();
-	}
-
-	public void clickonRadiobtnQ2() {
 		radioYesBtnQ2.click();
-	}
-
-	public void clickOnradioBtnQ3() {
 		radioNoBtnQ3.click();
-	}
-
-	public void clickOnradioBtnQ4() {
 		radioNoBtnQ4.click();
-	}
-
-	public void clickOnradioBtnQ5() {
 		radioNoBtnQ5.click();
-	}
-
-	public CardInformationPage clickOnVerifySubmitBtn() {
 		verifySubmitBtn.click();
 		return new CardInformationPage();
 	}

@@ -6,14 +6,19 @@
 
 <suite name="Amgen application Test Automation Test Suite">
 
-
 	<test name="Amgen Application Test Cases">
 		<classes>
+
 			<class name="com.Amgen.qa.testcases.StandAlonePageTest">
 			</class>
 			<class name="com.Amgen.qa.testcases.EligibilityPageTerst">
 			</class>
 			<class name="com.Amgen.qa.testcases.CardInformationPageTest">
+			</class>
+			<class name="com.Amgen.qa.testcases.PatientInformationPageTest">
+			</class>
+			<class
+				name="com.Amgen.qa.testcases.PhysicianInformationPageTest">
 			</class>
 		</classes>
 	</test>

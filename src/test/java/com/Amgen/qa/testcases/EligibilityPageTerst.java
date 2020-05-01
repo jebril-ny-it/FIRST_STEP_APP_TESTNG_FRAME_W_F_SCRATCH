@@ -31,12 +31,7 @@ public class EligibilityPageTerst extends TestBase {
 
 	@Test
 	public void clickOnRadioBtnQ1Test() {
-		eligibilityPage.clickOnradioBtn1();
-		eligibilityPage.clickonRadiobtnQ2();
-		eligibilityPage.clickOnradioBtnQ3();
-		eligibilityPage.clickOnradioBtnQ4();
-		eligibilityPage.clickOnradioBtnQ5();
-		cardInformationPage = eligibilityPage.clickOnVerifySubmitBtn();
+		cardInformationPage = eligibilityPage.filloutEligebilityQuestions();
 
 	}
 

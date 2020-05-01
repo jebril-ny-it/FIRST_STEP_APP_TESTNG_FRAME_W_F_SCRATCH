@@ -31,22 +31,17 @@ public class CardInformationPageTest extends TestBase {
 		patientInformationPage = new PatientInformationPage();
 		Thread.sleep(3000);
 		eligibilityPage = standAlonePage.clickOnGetStarted();
-		eligibilityPage.clickOnradioBtn1();
-		eligibilityPage.clickonRadiobtnQ2();
-		eligibilityPage.clickOnradioBtnQ3();
-		eligibilityPage.clickOnradioBtnQ4();
-		eligibilityPage.clickOnradioBtnQ5();
-		cardInformationPage = eligibilityPage.clickOnVerifySubmitBtn();
+		cardInformationPage = eligibilityPage.filloutEligebilityQuestions();
 
 	}
+//DONT REALLY NEED THIS METHOD==ONLY USED TO VALIDATE THE BOTTOM WORKS
+//	@Test(priority = 1)
+//	public void ClickOnPg2RadioBtnTest() {
+//		cardInformationPage.clickOnpg2RadioBtn();
+//
+//	}
 
-	@Test(priority = 1)
-	public void ClickOnPg2RadioBtnTest() {
-		cardInformationPage.clickOnpg2RadioBtn();
-
-	}
-
-	@Test(priority = 2)
+	@Test
 	public void clickContinuePge2BtnTest() throws InterruptedException {
 		cardInformationPage.clickOnpg2RadioBtn();
 		Thread.sleep(5000);
