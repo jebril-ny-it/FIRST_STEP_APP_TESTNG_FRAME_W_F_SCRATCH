@@ -32,9 +32,7 @@ public class TestBase {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-
 	}
-
 	public static void initalization() {
 
 		String browserName = prop.getProperty("browser");
@@ -62,10 +60,4 @@ public class TestBase {
 		driver.get(prop.getProperty("url"));
 	}
 
-	
-	
-	
-	
-	
-	
-}
+	}
